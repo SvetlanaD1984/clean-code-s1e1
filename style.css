@@ -1,5 +1,6 @@
 /* Basic Style */
-body {
+.header__wrapper,
+.task__wrapper {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -30,6 +31,10 @@ body {
   display: block;
   width: 500px;
   margin: 0 auto 0;
+
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
 .task-inner {
@@ -152,13 +157,13 @@ button.task__delete img:hover {
 
 /* Completed */
 ul#task-complete label {
-  text-decoration: line-through;
+  text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
 ul li input[type="text"] {
-  display: none;
+  display: none
 }
 
 ul li.task__edit-mode input[type="text"] {
