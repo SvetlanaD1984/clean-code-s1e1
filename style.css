@@ -1,13 +1,13 @@
 /* Basic Style */
 
-.header__wrapper,
+.header,
 .task__main {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-.header {
+.header__wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -30,7 +30,7 @@
   /* space */
 }
 
-.task {
+.task__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
